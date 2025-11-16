@@ -42,7 +42,11 @@ This README documents everything I did, why I did it, and how you can reproduce 
 - A production clone in us‑west‑2 launched from a custom AMI, with the same Secrets Manager parameters recreated in the new Region.
 - End‑to‑end demo: place orders from the Menu page and view them in Order History.
 
-Demo video: [Add your link here]
+Demo video: [
+
+https://github.com/user-attachments/assets/dfc7fd38-d9ac-4a2c-b7a5-a02a0763e5a6
+
+]
 
 ---
 
