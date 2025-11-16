@@ -12,13 +12,13 @@ TOKEN=$(curl -X PUT "http://169.254.169.254/latest/api/token" -H "X-aws-ec2-meta
 #curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/meta-data/
 
 az=$(curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/meta-data/placement/availability-zone)
-region=${az%?}
+region="us-west-2"
 export AWS_DEFAULT_REGION=$region
 echo "Region =" $AWS_DEFAULT_REGION
 #
 # Set the application parameter values.
 #
-publicDNS=$(curl -H "X-aws-ec2-metadata-token: $TOKEN" -v http://169.254.169.254/latest/meta-data/public-hostname)
+publicDNS="ec2-35-87-34-63.us-west-2.compute.amazonaws.com"
 echo "Public DNS =" $publicDNS
 
 echo "Setting the application parameter values in the Secrets Manager..."
