@@ -56,13 +56,13 @@ High‑level:
 
 Screenshots (drop your files into docs/images and update the paths):
 - Initial resources (IDE instance only)  
-  ![Starting architecture](docs/images/architecture-start.png) <!-- Replace with Image 4 -->
+  ![Starting architecture](docs/init.png) <!-- Replace with Image 4 -->
 - Final two‑Region deployment  
-  ![Final architecture](docs/images/architecture-final.png) <!-- Replace with Image 3 -->
+  ![Final architecture](docs/final.png) <!-- Replace with Image 3 -->
 - Secrets script edits (Region + public DNS)  
-  ![Secrets script changes](docs/images/set-app-parameters.png) <!-- Replace with Image 2 -->
+  ![Secrets script changes](docs/secrets.png) <!-- Replace with Image 2 -->
 - MariaDB console session  
-  ![MariaDB client connected](docs/images/mariadb-console.png) <!-- Replace with Image 1 -->
+  ![MariaDB client connected](docs/mariaDb.png) <!-- Replace with Image 1 -->
 
 ---
 
