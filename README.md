@@ -62,7 +62,7 @@ Screenshots (drop your files into docs/images and update the paths):
 - Secrets script edits (Region + public DNS)  
   ![Secrets script changes](docs/secrets.png) <!-- Replace with Image 2 -->
 - MariaDB console session  
-  ![MariaDB client connected](docs/mariaDb.png) <!-- Replace with Image 1 -->
+  ![MariaDB client connected](docs/maridaDb.png) <!-- Replace with Image 1 -->
 
 ---
 
