@@ -307,11 +307,10 @@ Recommended structure:
 ```
 .
 ├─ docs/
-│  └─ images/
-│     ├─ architecture-start.png     # Image 4
-│     ├─ architecture-final.png     # Image 3
-│     ├─ set-app-parameters.png     # Image 2
-│     └─ mariadb-console.png        # Image 1
+│    ├─ architecture-start.png     
+│    ├─ architecture-final.png     
+│    ├─ set-app-parameters.png     
+│    └─ mariadb-console.png        
 └─ README.md
 ```
 
